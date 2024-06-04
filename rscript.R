@@ -96,5 +96,7 @@ cyclisticbike_share$day_of_week <- wday(cyclisticbike_share$started_at, label = 
 cyclisticbike_share$day <- day(cyclisticbike_share$started_at)  # Day of the month
 cyclisticbike_share$month <- month(cyclisticbike_share$started_at, label = TRUE, abbr = FALSE)  # Month
 cyclisticbike_share$year <- year(cyclisticbike_share$started_at)  # Year
+cyclisticbike_share$hour <- hour(cyclisticbike_share$started_at) # Hour
 
 View(cyclisticbike_share)
+max(cyclisticbike_share$hour)
