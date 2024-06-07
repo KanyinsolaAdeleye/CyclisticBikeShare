@@ -77,20 +77,23 @@ View(cyclistic_bikeshare)
 sum(is.na(cyclistic_bikeshare))
 
 #create new column
-cyclistic_bikeshare$ridelength<-(cyclistic_bikeshare$ended_at - cyclistic_bikeshare$started_at)/60
-cyclistic_bikeshare$ridelength <- gsub(" secs", "", cyclistic_bikeshare$ridelength) #removed the unit "secs"
+cyclistic_bikeshare$ridelength<-cyclistic_bikeshare$ended_at - cyclistic_bikeshare$started_at
 
-View(cyclistic_bikeshare$ridelength)
+
+view(cyclistic_bikeshare$ridelength)
 #inspect the new column
 summary(cyclistic_bikeshare$ridelength)
 min(cyclistic_bikeshare$ridelength)
 max(cyclistic_bikeshare$ridelength)
 
 #delete rows where ride length is less than 0
-cyclisticbike_share<-cyclistic_bikeshare%>%
+cyclisticbikeshare_<-cyclistic_bikeshare%>%
   filter(ridelength>=0)
+max(cyclisticbikeshare_)
+min(cyclisticbike)
 
-
+cyclisticbikeshare_$ridelength_min<-cyclisticbikeshare_$ridelength/60
+cyclisticbike
 #add extra columns
 cyclisticbike_share$day_of_week <- wday(cyclisticbike_share$started_at, label = TRUE, abbr = FALSE)  # Day of the week
 cyclisticbike_share$day <- day(cyclisticbike_share$started_at)  # Day of the month
@@ -100,3 +103,6 @@ cyclisticbike_share$hour <- hour(cyclisticbike_share$started_at) # Hour
 
 View(cyclisticbike_share)
 max(cyclisticbike_share$hour)
+
+# save dataset
+write.csv(cyclisticbike_share, file="/users/HP/Desktop/BikeShare/cyclisticbike_share.csv", row.names = FALSE)
