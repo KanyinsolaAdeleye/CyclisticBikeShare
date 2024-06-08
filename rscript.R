@@ -89,20 +89,22 @@ max(cyclistic_bikeshare$ridelength)
 #delete rows where ride length is less than 0
 cyclisticbikeshare_<-cyclistic_bikeshare%>%
   filter(ridelength>=0)
-max(cyclisticbikeshare_)
-min(cyclisticbike)
+max(cyclisticbikeshare_$ridelength)
+min(cyclisticbikeshare_$ridelength)
 
 cyclisticbikeshare_$ridelength_min<-cyclisticbikeshare_$ridelength/60
-cyclisticbike
+max(cyclisticbikeshare_$ridelength_min)
+min(cyclisticbikeshare_$ridelength_min)
+
 #add extra columns
-cyclisticbike_share$day_of_week <- wday(cyclisticbike_share$started_at, label = TRUE, abbr = FALSE)  # Day of the week
-cyclisticbike_share$day <- day(cyclisticbike_share$started_at)  # Day of the month
-cyclisticbike_share$month <- month(cyclisticbike_share$started_at, label = TRUE, abbr = FALSE)  # Month
-cyclisticbike_share$year <- year(cyclisticbike_share$started_at)  # Year
-cyclisticbike_share$hour <- hour(cyclisticbike_share$started_at) # Hour
+cyclisticbikeshare_$day_of_week <- wday(cyclisticbike_share$started_at, label = TRUE, abbr = FALSE)  # Day of the week
+cyclisticbikeshare_$day <- day(cyclisticbike_share$started_at)  # Day of the month
+cyclisticbikeshare_$month <- month(cyclisticbike_share$started_at, label = TRUE, abbr = FALSE)  # Month
+cyclisticbikeshare_$year <- year(cyclisticbike_share$started_at)  # Year
+cyclisticbikeshare_$hour <- hour(cyclisticbike_share$started_at) # Hour
 
 View(cyclisticbike_share)
 max(cyclisticbike_share$hour)
 
 # save dataset
-write.csv(cyclisticbike_share, file="/users/HP/Desktop/BikeShare/cyclisticbike_share.csv", row.names = FALSE)
+write.csv(cyclisticbikeshare_, file="/users/HP/Desktop/BikeShare/cyclisticbike_share.csv", row.names = FALSE)
