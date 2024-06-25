@@ -60,6 +60,8 @@ Welcome to the Cyclistic bike-share analysis case study!
 ## Process
 For this case study, I will be using R for my analysis becasue of the flexibility R provides for analysis using various packages and PowerBi for my visualization because I want to explore the features PowerBi offers.
 
+### The Cleaning Process
+> I loaded the packages I will be needing
 ``` r
 #install packages 
 library(tidyverse)
