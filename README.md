@@ -7,7 +7,7 @@
 ## 📕 Table Of Contents
 * [Scenario](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#scenario>)
 * [About the Company](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#about-the-company>)
-* [About The Team](<[About the Team](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#about-the-team>)
+* [About The Team](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#about-the-team>)
 * [Background of the Case-study](<Background of the Case-study>)
 * [Business Task](<Business Task>)
 * [Goal Insights](<Goal Insights>)
