@@ -13,7 +13,7 @@
 * [Goal Insights](<Goal Insights>)
 * [Prepare](<Prepare>)
 * [Process](<Process>)
-* [Analyze abnd Share](<Analyze and Share>)
+* [Analyze and Share](<Analyze and Share>)
 * [Act](#act)
 
 
