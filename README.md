@@ -14,7 +14,7 @@
 * [Prepare](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#prepare>)
 * [Process](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#process>)
 * [Analyze and Share](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#analyze-and-share>)
-* [Act](<#https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#act>)
+* [Act](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#act>)
 
 
 ## Scenario
