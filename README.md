@@ -8,13 +8,13 @@
 * [Scenario](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#scenario>)
 * [About the Company](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#about-the-company>)
 * [About The Team](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#about-the-team>)
-* [Background of the Case-study](<Background of the Case-study>)
-* [Business Task](<Business Task>)
-* [Goal Insights](<Goal Insights>)
-* [Prepare](<Prepare>)
-* [Process](<Process>)
-* [Analyze and Share](<Analyze and Share>)
-* [Act](#act)
+* [Background of the Case-study](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#background-of-the-case-study>)
+* [Business Task](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#business-task>)
+* [Goal Insights](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#goal-insights>)
+* [Prepare](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#prepare>)
+* [Process](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#process>)
+* [Analyze and Share](<https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#analyze-and-share>)
+* [Act](#https://github.com/KanyinsolaAdeleye/CyclisticBikeShare/blob/main/README.md#act)
 
 
 ## Scenario
